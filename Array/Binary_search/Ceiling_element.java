@@ -2,8 +2,8 @@ package Array.Binary_search;
 
 public class Ceiling_element {
     public static void main(String[] args) {
-        int[] arr={1,2,3,7,8,9};
-        System.out.println(ceiling(arr,3));
+        int[] arr={1,34,45,56,345,3424,3552342,234412412};
+        System.out.println(ceiling(arr,223443223));
         
     }
 
@@ -25,7 +25,7 @@ int mid=0;
             }
         }
 
-        return arr[mid];
+        return arr[beg];
     }
     
 }
