@@ -26,7 +26,7 @@ public class Floor_problem {
             }
 
             else{
-                return arr[mid-1];
+                return arr[mid];
             }
 
         }
